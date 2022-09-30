@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Box</title>
+</head>
+<body bgcolor="orange">
+    <h1 align="center"><font color="red">Order Food Online</font></h1>
+    <form action="/backend.php">
+        Name:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type="text" name="fname" size="30" placeholder="Enter your Name"><br> <br>
+        Date:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type="date"><br><br>
+        Email:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type="email" name="email" pattern="[a-z,A-Z]-[@]-[a-z,A-Z]-[.com,.COM]" placeholder="abc@gmail.com">
+        <br><br>
+        Contact Number:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type="tel" id="phone" maxlength="10" placeholder="Enter your phone number"><br><br>
+        Select Food:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+        &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspNon-Vegetarian<input type="radio" name="food" value="Non-Vegetarian">
+        Vegetarian<input type="radio" name="food" value="Vegetarian">
+        <br>
+        <br>Select Restaurant:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+        <select name="dropdown">
+            <option selected>Select your Restaurants</option>
+            <option value="Sky Lark">Sky Lark</option>
+            <option value="Haveli">Haveli</option>
+            <option value="Lee Grand">Lee Grand</option>
+            <option value="Mandarin Kitchen">Mandarin Kitchen</option>
+        </select><br><br>
+        Drinks:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+        <select name="dropdown">
+            <option selected>Select your Drink</option>
+            <option value="Coke">Coke</option>
+            <option value="Tea">Tea</option>
+            <option value="Coffee">Coffee</option>
+            <option value="Sprite">Sprite</option>
+            <option value="Lassi">Lassi</option>
+            <option value="Juice">Juice</option>
+        </select><br><br>
+        Soups:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+        <select name="dropdown">
+            <option selected>Select the Soup of Your Choice </option>
+            <option value="Manchow Soup">Manchow Soup</option>
+            <option value="Tea">Mixed Vegetable Soup</option>
+            <option value="Coffee">Tomato Soup</option>
+            <option value="Sprite">Thick Corn Soup</option>
+            <option value="Lassi">Onion Soup</option>
+            <option value="Juice">Lemon and Coriander Soup</option>
+        </select><br><br>
+        Dishes:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+        <select name="dropdown">
+            <option selected>Select the Dishes of Your Choice</option>
+            <option value="Coke">Palak paneer</option>
+            <option value="Tea">Curry</option>
+            <option value="Coffee">Chicken Tikka Masala</option>
+            <option value="Sprite">Dal Makhani</option>
+            <option value="Lassi">Masala Dosa</option>
+            <option value="Juice">Stuffed Paratha</option>
+        </select><br><br>
+        Order For:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type="radio" name="delivery" value="Take Away">Take Away
+        <input type="radio" name="delivery" value="Home delivery">Home delivery
+        <br><br>
+        Address:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<textarea rows="4"></textarea><br><br>
+        State:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type="text" pattern="[a-z,A-Z]"><br><br>
+        &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type="submit" name="submit" value="submit now">
+        &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type="reset" name="reset" value="Reset Form">
+    </form>
+    </body>
+    </html>
